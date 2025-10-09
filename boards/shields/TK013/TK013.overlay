@@ -5,8 +5,9 @@
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
     };
+
     default_transform: matrix_transform {
-        compatible = "zmk,matix-transform";
+        compatible = "zmk,matrix-transform";
         row = <4>;
         columns = <4>;
 
