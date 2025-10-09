@@ -1,0 +1,2 @@
+config SHIELD_TK013
+   def_bool $(shiled_list_contains,TK013)
