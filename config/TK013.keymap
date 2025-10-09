@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-&mo 1      &kp up    &kp ESC    &trans   
+&mo 1      &kp UP    &kp ESC    &trans   
 &kp LEFT   &kp DOWN  &kp F      &kp Y    
 &kp Z      &kp X     &kp RIGHT  &kp G  
 &trans     &trans    &kp C      &kp SPACE   
