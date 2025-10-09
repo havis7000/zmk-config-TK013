@@ -1,6 +1,0 @@
-if SHIELD_TK013
-
-config ZMK_KEYBOARD_NAME
-     default "TK013"
-
-endif
