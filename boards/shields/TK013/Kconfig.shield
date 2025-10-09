@@ -1,2 +1,3 @@
 config SHIELD_TK013
-   def_bool $(SHIELD_LIST_CONTAINS,TK013)
+   def_bool Y
+   depends on BOARD_NICE_NANO_V2
