@@ -1,2 +1,2 @@
 config SHIELD_TK013
-   def_bool $(shield_list_contains,TK013)
+   def_bool $(SHIELD_LIST_CONTAINS,TK013)
