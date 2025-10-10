@@ -1,6 +1,6 @@
 file_format: "1"
-id: TK013
-name: TK013
+id: TK13
+name: TK13
 type: shield
 url: https://github.com/havis7000/zmk-config-TK013
 requires: [pro_micro]

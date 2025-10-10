@@ -1,0 +1,6 @@
+if SHIELD_TK13
+
+config ZMK_KEYBOARD_NAME
+     default "TK13"
+
+endif
