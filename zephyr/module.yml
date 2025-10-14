@@ -2,4 +2,3 @@ build:
   settings:
     board_root: .
 name: zmk-keyboard-TK13
->
