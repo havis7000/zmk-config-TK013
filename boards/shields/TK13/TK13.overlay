@@ -6,7 +6,7 @@
         zmk,matrix_transform = &default_transform;
     };
 
-    default_transform: matrix_transform {
+    default_transform: matrix_transform_0 {
         compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <4>;
@@ -21,7 +21,8 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
+        wekup-source
+
         diode-direction = "col2row";
 
         row-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
@@ -40,7 +41,7 @@
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
+        steps = <60>;
         status = "okay";
     };
     sensors: sensors {
