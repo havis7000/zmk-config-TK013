@@ -1,2 +1,5 @@
+# Copyright (c) 2020 The ZMK Contributors
+#SPDX-Lincense-Identifier: MIT
+
 config SHIELD_TK13
     def_bool $(shields_list_contains,tk13)

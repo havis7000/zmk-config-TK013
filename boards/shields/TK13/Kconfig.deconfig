@@ -1,3 +1,6 @@
+# Copyright (c) 2020 The ZMK Contributors
+#SPDX-Lincense-Identifier: MIT
+
 if SHIELD_TK13
 
 config ZMK_KEYBOARD_NAME
