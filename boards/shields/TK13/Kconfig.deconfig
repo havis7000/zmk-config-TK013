@@ -4,6 +4,6 @@
 if SHIELD_TK13
 
 config ZMK_KEYBOARD_NAME
-     default "TK0013"
+     default "TK13"
 
 endif
