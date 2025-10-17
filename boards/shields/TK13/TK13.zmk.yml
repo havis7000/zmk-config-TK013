@@ -3,7 +3,7 @@ id: tk13
 name: TK13
 type: shield
 url: https://github.com/havis7000/zmk-config-TK013
-requires: [pro_micro]
+requires: [nrfmicro_13_52840]
 features:
   - keys
   - ble
