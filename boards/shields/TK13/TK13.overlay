@@ -27,7 +27,7 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;
+        label = "KSCAN";
 
         diode-direction = "col2row";
 
@@ -45,7 +45,7 @@
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <&gpio1 09 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&gpio1 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 05 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <60>;
         status = "okay";
