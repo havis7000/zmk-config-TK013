@@ -19,7 +19,7 @@
 &kp Z      &kp X     &kp RIGHT  &kp G  
 &trans     &trans    &kp C      &kp SPACE   
             >;
-             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         bt_layer {
@@ -29,7 +29,7 @@
 &trans   &trans          &trans           &trans          
 &trans   &trans          &kp A            &trans   
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
